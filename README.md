@@ -10,7 +10,10 @@ MacPortsのnginxがpassengerに対応していないのでその対策。
 
 ## インストール方法
 
-- 準備中
+- passengerをnginxサポート付きでインストールしておく。
+- rbenvなどでrubyのバージョンをサーバーで使用するバージョンに設定しておく。
+- modify_portfile.shを実行。これはPortfileを変更する。
+- install.shを実行。
 
 ## 使用方法
 
